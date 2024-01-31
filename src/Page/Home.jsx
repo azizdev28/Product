@@ -2,10 +2,10 @@ import React from "react";
 import { Header } from "../components/Header";
 import Main from "../components/Main";
 
-const Home = () => {
+const Home = ({ handleClick }) => {
   return (
     <div className="container">
-      <Header />
+      <Header handleClick={handleClick} />
       <Main />
     </div>
   );

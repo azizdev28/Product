@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import { MdLightMode } from "react-icons/md";
+import { CgDarkMode } from "react-icons/cg";
 import LogoProduct from "../assets/Img/LogoProduct.svg";
-const Navbar = () => {
-  const [dark, setDark] = useState("white");
-  const DarkMode = () => {
-    setDark("black");
-  };
+const Navbar = ({ handleClick }) => {
   return (
     <div className="container">
       <div className="HeroNavbar">
@@ -32,7 +28,9 @@ const Navbar = () => {
           <button>Sign In</button>
           <button>Sign Up</button>
 
-          <MdLightMode className="DarkMode" />
+          <span className="darkMode">
+            <CgDarkMode className="DarkMode" onClick={handleClick} />
+          </span>
         </div>
       </div>
     </div>

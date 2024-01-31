@@ -297,3 +297,158 @@ body {
   display: flex;
   gap: 32px;
 }
+.true {
+  background-color: black;
+}
+
+.false {
+  background-color: #fff;
+}
+.darkMode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: #02897a;
+  border-radius: 50%;
+  color: #fff;
+}
+.TableCard {
+  width: 323.042px;
+  height: 456px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  padding: 25px 75px;
+}
+
+.Table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.TableInfo h3 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.TableInfo p {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.TableCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+
+.TableCard h4 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 166.667% */
+}
+.TableCard p {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 250% */
+}
+
+.TableCard span {
+  color: #22343d;
+
+  /* Link */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.2px;
+}
+
+.TableCard h5 {
+  color: #22343d;
+
+  /* Link */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.2px;
+}
+.TableCard button {
+  display: inline-flex;
+  padding: 11px 19px 11px 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #02897a;
+  border: none;
+  color: #fff;
+}
+.CardItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.CardItem h2 {
+  color: #02897a;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 131.579% */
+  letter-spacing: 0.2px;
+}
+
+.CardList span {
+  color: #02897a;
+
+  /* Title */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+  letter-spacing: 0.1px;
+}
+.CardList p {
+  color: var(--second-text, #afafaf);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; /* 118.75% */
+  letter-spacing: 0.1px;
+}
+.TableCard:hover {
+  border-radius: 8px;
+  background: #02897a;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.TableCards {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}

@@ -4,11 +4,13 @@ import Home from "./Page/Home";
 
 function App() {
   const [dark, setDark] = useState(false);
-
+  const handleClick = () => {
+    setDark(!dark);
+  };
   return (
     <>
-      <div>
-        <Home />
+      <div className={dark ? "true " : "false"}>
+        <Home handleClick={handleClick} />
       </div>
     </>
   );
