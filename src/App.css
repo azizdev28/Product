@@ -154,6 +154,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 30px;
+  padding-bottom: 90px;
 }
 
 .ProductHeading h3 {
@@ -215,4 +216,84 @@ body {
   line-height: normal;
   border: none;
   margin-top: 60px;
+}
+
+.ContentsStrategies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  gap: 32px;
+  margin-bottom: 100px;
+}
+
+.ContentsStrategiesInfo h2 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.ContentsStrategiesInfo p {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+.ContentsStrategiesCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 348.786px;
+  height: 359px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+.ContentsStrategiesCard img {
+  border-radius: 8px;
+}
+
+.ContentsStrategiesCard p {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.ContentsStrategiesCard p span {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.ContentsStrategiesCard h3 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 166.667% */
+}
+.ContentsStrategiesCard h3:hover {
+  color: #02897a;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 166.667% */
+}
+.ContentsStrategiesCards {
+  display: flex;
+  gap: 32px;
 }
