@@ -10,16 +10,18 @@ const HeaderWrapper = () => {
           Tools, tutorials, design and innovation experts, all in one place! The
           most intuitive way to imagine your next user experience.
         </p>
-        <button>Get started</button>
-        <button>
-          <span>
-            <CiPlay1 />
-          </span>
-          Watch the Video
-        </button>
+        <div className="DivPlay">
+          <button>Get started</button>
+          <button>
+            <span>
+              <CiPlay1 />
+            </span>
+            Watch the Video
+          </button>
+        </div>
       </div>
-      <div>
-        <img src={HeaderImg} alt="as" />
+      <div className="ImgWrapper">
+        <img src={HeaderImg} alt="as" className="HeaderImg" />
       </div>
     </div>
   );
