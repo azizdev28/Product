@@ -688,3 +688,96 @@ body {
     padding: 0 20px;
   }
 }
+@media only screen and (max-width: 375px) {
+  .NavbarLine {
+    display: none;
+  }
+  .HeroNavbar {
+    justify-content: center;
+    gap: 150px;
+  }
+  .BtnBurger {
+    display: block;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn {
+    color: #000;
+    font-size: 20px;
+  }
+
+  .HeaderWrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .DivPlay {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .HeaderInfo h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .HeaderInfo p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .ImgWrapper {
+    display: none;
+  }
+
+  .Cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ContentsStrategiesCards {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .TableCards {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .ClientCardItem {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footerCard {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .footerInfo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .darkMode {
+    display: block;
+  }
+  .ClientInfo p {
+    padding: 0 20px;
+  }
+}
